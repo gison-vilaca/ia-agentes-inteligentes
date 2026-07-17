@@ -7,7 +7,7 @@ Execute com:
     python main.py
 """
 
-from game import Jogo
+from jogo import Jogo
 
 if __name__ == "__main__":
     Jogo().executar()

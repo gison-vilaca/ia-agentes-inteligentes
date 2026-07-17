@@ -14,8 +14,8 @@ import random
 import sys
 import pygame
 
-from maze import Labirinto
-from agents import AgenteAEstrela, AgenteQLearning, AgenteGenetico
+from labirinto import Labirinto
+from agentes import AgenteAEstrela, AgenteQLearning, AgenteGenetico
 
 
 # ----------------------------------------------------------------------
