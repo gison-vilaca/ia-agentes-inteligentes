@@ -13,7 +13,7 @@ diferente para chegar ao objetivo. Todos compartilham a mesma interface
 import heapq
 import random
 
-from maze import MOVIMENTOS
+from labirinto import MOVIMENTOS
 
 N_ACOES = len(MOVIMENTOS)
 
@@ -149,7 +149,7 @@ class AgenteQLearning(AgenteBase):
         self.fator_desconto = fator_desconto
         self.exploracao_treino = exploracao_treino
         self.exploracao_jogo = exploracao_jogo
-        self.episodios_treino = episodios_treino
+        self.episodios_treino = episodios_treino 
         self.tabela_q = {}
         self.aleatorio = random.Random()
         self.treinado = False
